@@ -1,6 +1,4 @@
 
-#test update on dev
-
 # BoardgameListingWebApp
 
 ## Description
