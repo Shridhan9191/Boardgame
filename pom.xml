@@ -15,7 +15,7 @@
 	<description>Project for Spring Boot</description>
 	<packaging>jar</packaging>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<jacoco.version>0.8.7</jacoco.version>
    		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -120,11 +120,11 @@
 	 <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://56.228.17.144:8081/repository/maven-releases/</url>
+            <url>http://56.228.11.144:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://56.228.17.144:8081/repository/maven-snapshots/</url>
+            <url>http://56.228.11.144:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
